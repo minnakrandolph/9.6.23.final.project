@@ -1,3 +1,9 @@
 body {
-    background-color: rgb(168, 234, 212);
+    background-color: #F9F7FE;
+}
+h1 {
+    font-family: Poppins, bold;
+}
+p {
+    font-family: playfair;
 }
