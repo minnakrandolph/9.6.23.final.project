@@ -2,8 +2,10 @@ body {
     background-color: #F9F7FE;
 }
 h1 {
-    font-family: Poppins, bold;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
 }
 p {
-    font-family: playfair;
+    font-family: "Playfair Display", serif;;
+    font-weight: normal;
 }
