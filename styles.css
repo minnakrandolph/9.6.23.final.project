@@ -1,5 +1,6 @@
-body {
+.hero {
     background-color: #F9F7FE;
+    text-align: center;
 }
 h1 {
     font-family: "Playfair Display", serif;
