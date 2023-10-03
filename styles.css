@@ -1,8 +1,9 @@
 :root {
 --branding-color: #6c63ff;
---heading-font-family:
+--secondary-color:#f9f7fe;
+--heading-font-family: "Playfair Display", serif;
+--default-font-family: "Poppins", sans-serif;
 }
-
 
 h1,
 h2,
@@ -26,7 +27,12 @@ h1 {
     font-size: 90px;
     font-weight: bold;
 }
-
+h2 {
+    font-size: 64px;
+}
+p {
+    font-size: small;
+}
 
 .hero p {
     font-family: "Playfair Display", serif;
