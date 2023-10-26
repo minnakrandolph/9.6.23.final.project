@@ -27,6 +27,9 @@ h1 {
 h2 {
     font-size: 64px;
 }
+h4 {
+    font-size: 48px;
+}
 
 p {
     font-weight: normal;
@@ -55,7 +58,7 @@ nav ul {
 nav a {
         text-decoration: none;
         color: #272142;
-        transition: 100ms ease-in-out;
+        transition: all 100ms ease-in-out;
     }
 
     nav li.active a,
@@ -151,6 +154,44 @@ nav a {
 .project-description {
     padding: 120px 60px;
 }
+footer {
+    margin: 60px 0;
+}
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+    }
+
+footer .contact-box p {
+        margin: 0;
+    }
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    
+}
+footer .social-links a:hover {
+    color: white;
+    background-color: var(--branding-color);
+    transition: all 105ms ease-in-out;
+
+
+}
 
 
 @media (max-width: 900px) {
@@ -166,6 +207,11 @@ nav a {
 h2 {
     font-size: 44px;
     }
+
+h4 {
+    font-size: 26px;
+    }
+
 
 .hero {
     padding: 80px 20px;
@@ -185,6 +231,9 @@ h2 {
     
     img {
         margin-top: 20px;
+    }
+    footer .contact-box {
+        padding: 30px;
     }
    
 }
