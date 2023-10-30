@@ -10,33 +10,29 @@
 <link href="https://fonts.googleapis.com/css2?family=Monoton&family=PT+Mono&family=Playfair+Display:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/08339ee52a.js" crossorigin="anonymous"></script>
     <link href="styles.css" rel="stylesheet"/>   
-    <title>Contact</title>
+    <title>Contact page</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="work.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-              </li>
-            </ul>
-           </div>
-        </div>
-      </nav>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+  <img src="images/logo.png" alt="" class="logo d-none d-md-block"/>
+  <img src="images/logo_small.png" alt="logo" class= "logo d-block d-md-none"/>
+  <ul>
+    <li>
+      <a href="index.html" title="Homepage">Home</a>
+      </li>
+    <li>
+      <a href="/about.html" title="About page">About</a>
+    </li>
+    <li>
+      <a href="/work.html" title="Portfolio">Projects</a>
+    </li>
+    <li>
+      <a href="/contact.html" title="Contact me">Contact</a>
+    </li>
+  </ul>
+  </nav>
+  </div>
       <div class="content-container container">
         <div class="content">
             <h1 class="mb-5">Let's get in touch!</h1>
@@ -53,7 +49,36 @@
             <p>@minna</p> </a>
         </div>
     </div>
-   
+    <footer>
+      <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
+    <h4> Work Inquiry</h4>
+    <p class="text-muted"> Let's work together!</p>
+    </div>
+    <div>
+    <a href="contact.html" class="btn btn-branding mt-3" title="contact Minna">Contact Me</a>
+      </div>
+  </div>
+      <div class="d-flex justify-content-center">
+     <a href="mailto:youremail@email.com" class="email-link mb-3">youremail@email.com </a>
+      </div>
     
-</body>
+      <div class="social-links d-flex justify-content-center mb-3">
+      <a href="" target="_blank">
+        <i class="fa-brands fa-instagram" title="instagram"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-x-twitter" title="twitter X"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-github" title="github"></i>
+      </a>
+      </div>
+      </div>
+      </div>
+      <p class="text-center mt-4">
+        ✌🏽This project was coded by Minna Randolph , and is <a href="https://github.com/minnakrandolph/9.6.23.final.project/tree/main" target="_blank"> open-sourced 🙌🏽 </a> !
+      </p>
+    </footer>
+   </body>
 </html>
